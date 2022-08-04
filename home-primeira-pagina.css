@@ -1,0 +1,128 @@
+header {
+	background: #f77e2d;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.texto-minhas-receitas{
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(236, 246, 247);
+    margin: 10px;
+    text-align: center;
+    position: absolute;
+    top: 30px ;
+    right:30px ;
+
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 ;
+}
+
+nav {
+	position: absolute;
+	top: 120px;
+    right:  1px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #faf6f4;
+	text-decoration: underline;
+}
+
+.bolos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.bolos li {
+	display: inline-block;
+	text-align: center;
+	width: 0 0%;
+	vertical-align: top;
+	margin: 40px 3.4%;
+	padding: 10px 0px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.bolos li:hover {
+	border-color: #C78C19;
+}
+
+.bolos li:active {
+	border-color: #088C19;	
+}
+
+.bolos li:hover h2 {
+	font-size: 34px;
+}
+
+.bolos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.bolos{
+	padding: 10em 240px;
+	background: linear-gradient(#f3f0f0, #c5baa3 );
+}
+
+.produto-descricao {
+	font-size: 18px;	
+}
+
+*.coracao:before {
+    content: "  "
+}
+
+/*coracao:hover {
+		color: #e71616;
+		text-decoration: underline;
+}
+*/
+@media screen and (max-width: 480px){
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .texto-minhas-receitas {
+		
+		text-align: auto;
+	}
+	
+	h1{
+		text-align: auto;
+	}
+
+	h2{
+		text-align: auto;
+	}
+
+	nav{
+		position: static;
+		text-align: auto;
+	}
+
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+	}
+}
